@@ -14,7 +14,7 @@ let buttons = [
 function App() {
   return (
     <div className="App">
-      <NavigationBar content={buttons}/>
+      <NavigationBar content={buttons} />
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>

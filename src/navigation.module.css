@@ -1,0 +1,14 @@
+.navigationBar {
+    margin: 0;
+    padding: 0;
+    background-color: #282c34;
+    display: inline-block;
+    box-sizing: border-box;
+}
+
+.navigationButton {
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    border-right: 1px solid #61dafb;
+}
