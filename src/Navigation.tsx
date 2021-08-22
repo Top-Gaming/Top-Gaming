@@ -1,7 +1,7 @@
-import React, { Component } from 'react';
+import React, {Component, RefObject} from 'react';
 import styles from './navigation.module.css';
 
-let buttonWidth : number = window.innerWidth / 5 - 2;
+let buttonWidth : number = (window.innerWidth / 5) - 2.7
 
 export class Button {
     text : string;
@@ -15,7 +15,11 @@ export class Button {
         let total : JSX.Element[] = [];
         let index = 0;
         for (const btn of buttons) {
-            total.push(<NavigationButton button={btn} startingWidth={startingWidth} key={index} />);
+            if (index === buttons.length - 1) {
+                total.push(<NavigationButton button={btn} startingWidth={startingWidth} key={index} lastButton={true}/>)
+                continue;
+            }
+            total.push(<NavigationButton button={btn} startingWidth={startingWidth} key={index} lastButton={false}/>);
             index++;
         }
         return total;
@@ -24,7 +28,8 @@ export class Button {
 
 interface NavigationButtonProps {
     button : Button;
-    startingWidth : number
+    startingWidth : number;
+    lastButton : boolean
 }
 interface NavigationButtonState {
     width : number;
@@ -36,20 +41,22 @@ class NavigationButton extends Component<NavigationButtonProps, NavigationButton
         super(props);
 
         this.state = {
-            width : this.props.startingWidth
+            width : this.props.startingWidth - 1.5
         }
 
         this.style = {
-            "width" : this.props.startingWidth + "px"
+            "width" : this.state.width + "px",
+            "borderRight" : this.props.lastButton ? "none" : "1px solid #61dafb"
         }
     }
 
     updateButtonWidth = () => {
         this.setState({
-            width: buttonWidth
+            width: buttonWidth - 2.7
         });
         this.style = {
-            "width" : this.state.width
+            "width" : this.state.width + "px",
+            "borderRight" : this.props.lastButton ? "none" : "1px solid #61dafb"
         }
     }
 
@@ -77,18 +84,23 @@ interface NavigationBarState {}
 
 
 export default class NavigationBar extends Component<NavigationBarProps, NavigationBarState> {
-    content : Array<JSX.Element>
+    content : Array<JSX.Element>;
+    bar : RefObject<HTMLDivElement>;
     constructor(props : any) {
         super(props)
 
-        this.content = Button.convertToHTML(this.props.content, window.innerWidth / this.props.content.length - 2)
+        this.content = Button.convertToHTML(this.props.content, buttonWidth)
+
+        this.bar = React.createRef();
+
     }
 
     updateButtonWidth = () => {
-        buttonWidth = window.innerWidth / this.props.content.length - 2
+        buttonWidth = this.bar.current !== null ? this.bar.current.offsetWidth / this.props.content.length : buttonWidth
     }
 
     componentDidMount() {
+        this.updateButtonWidth();
         window.addEventListener("resize", this.updateButtonWidth)
     }
 
@@ -97,6 +109,6 @@ export default class NavigationBar extends Component<NavigationBarProps, Navigat
     }
 
     render() {
-        return <div className={styles.navigationBar}>{this.content}</div>
+        return <div className={styles.navigationBar} ref={this.bar}>{this.content}</div>
     }
 }
