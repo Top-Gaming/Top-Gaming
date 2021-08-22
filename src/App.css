@@ -35,3 +35,14 @@
     transform: rotate(360deg);
   }
 }
+
+.Name-bar {
+  background: #0FFF50;
+  color: #282c34;
+  line-height: 40px;
+  font-weight: bolder;
+  display: block;
+  position: sticky;
+  position: -webkit-sticky;
+  top: 0px;
+}

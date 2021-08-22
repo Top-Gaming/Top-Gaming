@@ -2,6 +2,10 @@
     margin: 0;
     padding: 0;
     display: block;
+    background-color: #282c34;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 40px;
 }
 
 .navigationButton {
@@ -11,4 +15,5 @@
     background-color: #282c34;
     box-sizing: border-box;
     line-height: 40px;
+    font-weight: bold;
 }
