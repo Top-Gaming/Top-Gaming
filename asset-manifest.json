@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/Top_Gaming/static/css/main.a63ddc40.chunk.css",
-    "main.js": "/Top_Gaming/static/js/main.d9a17029.chunk.js",
-    "main.js.map": "/Top_Gaming/static/js/main.d9a17029.chunk.js.map",
+    "main.css": "/Top_Gaming/static/css/main.f76a54f7.chunk.css",
+    "main.js": "/Top_Gaming/static/js/main.9b274c3c.chunk.js",
+    "main.js.map": "/Top_Gaming/static/js/main.9b274c3c.chunk.js.map",
     "runtime-main.js": "/Top_Gaming/static/js/runtime-main.c22456cf.js",
     "runtime-main.js.map": "/Top_Gaming/static/js/runtime-main.c22456cf.js.map",
     "static/js/2.09abd714.chunk.js": "/Top_Gaming/static/js/2.09abd714.chunk.js",
@@ -10,14 +10,14 @@
     "static/js/3.9ed43702.chunk.js": "/Top_Gaming/static/js/3.9ed43702.chunk.js",
     "static/js/3.9ed43702.chunk.js.map": "/Top_Gaming/static/js/3.9ed43702.chunk.js.map",
     "index.html": "/Top_Gaming/index.html",
-    "static/css/main.a63ddc40.chunk.css.map": "/Top_Gaming/static/css/main.a63ddc40.chunk.css.map",
+    "static/css/main.f76a54f7.chunk.css.map": "/Top_Gaming/static/css/main.f76a54f7.chunk.css.map",
     "static/js/2.09abd714.chunk.js.LICENSE.txt": "/Top_Gaming/static/js/2.09abd714.chunk.js.LICENSE.txt",
     "static/media/logo.6ce24c58.svg": "/Top_Gaming/static/media/logo.6ce24c58.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.c22456cf.js",
     "static/js/2.09abd714.chunk.js",
-    "static/css/main.a63ddc40.chunk.css",
-    "static/js/main.d9a17029.chunk.js"
+    "static/css/main.f76a54f7.chunk.css",
+    "static/js/main.9b274c3c.chunk.js"
   ]
 }
