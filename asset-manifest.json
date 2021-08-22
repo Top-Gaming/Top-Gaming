@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/Top_Gaming/static/css/main.e6cfc7a7.chunk.css",
-    "main.js": "/Top_Gaming/static/js/main.b49a5df0.chunk.js",
-    "main.js.map": "/Top_Gaming/static/js/main.b49a5df0.chunk.js.map",
-    "runtime-main.js": "/Top_Gaming/static/js/runtime-main.4cb7c6e4.js",
-    "runtime-main.js.map": "/Top_Gaming/static/js/runtime-main.4cb7c6e4.js.map",
-    "static/js/2.efc2ab03.chunk.js": "/Top_Gaming/static/js/2.efc2ab03.chunk.js",
-    "static/js/2.efc2ab03.chunk.js.map": "/Top_Gaming/static/js/2.efc2ab03.chunk.js.map",
-    "static/js/3.b31be564.chunk.js": "/Top_Gaming/static/js/3.b31be564.chunk.js",
-    "static/js/3.b31be564.chunk.js.map": "/Top_Gaming/static/js/3.b31be564.chunk.js.map",
+    "main.css": "/Top_Gaming/static/css/main.a63ddc40.chunk.css",
+    "main.js": "/Top_Gaming/static/js/main.d9a17029.chunk.js",
+    "main.js.map": "/Top_Gaming/static/js/main.d9a17029.chunk.js.map",
+    "runtime-main.js": "/Top_Gaming/static/js/runtime-main.c22456cf.js",
+    "runtime-main.js.map": "/Top_Gaming/static/js/runtime-main.c22456cf.js.map",
+    "static/js/2.09abd714.chunk.js": "/Top_Gaming/static/js/2.09abd714.chunk.js",
+    "static/js/2.09abd714.chunk.js.map": "/Top_Gaming/static/js/2.09abd714.chunk.js.map",
+    "static/js/3.9ed43702.chunk.js": "/Top_Gaming/static/js/3.9ed43702.chunk.js",
+    "static/js/3.9ed43702.chunk.js.map": "/Top_Gaming/static/js/3.9ed43702.chunk.js.map",
     "index.html": "/Top_Gaming/index.html",
-    "static/css/main.e6cfc7a7.chunk.css.map": "/Top_Gaming/static/css/main.e6cfc7a7.chunk.css.map",
-    "static/js/2.efc2ab03.chunk.js.LICENSE.txt": "/Top_Gaming/static/js/2.efc2ab03.chunk.js.LICENSE.txt",
+    "static/css/main.a63ddc40.chunk.css.map": "/Top_Gaming/static/css/main.a63ddc40.chunk.css.map",
+    "static/js/2.09abd714.chunk.js.LICENSE.txt": "/Top_Gaming/static/js/2.09abd714.chunk.js.LICENSE.txt",
     "static/media/logo.6ce24c58.svg": "/Top_Gaming/static/media/logo.6ce24c58.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.4cb7c6e4.js",
-    "static/js/2.efc2ab03.chunk.js",
-    "static/css/main.e6cfc7a7.chunk.css",
-    "static/js/main.b49a5df0.chunk.js"
+    "static/js/runtime-main.c22456cf.js",
+    "static/js/2.09abd714.chunk.js",
+    "static/css/main.a63ddc40.chunk.css",
+    "static/js/main.d9a17029.chunk.js"
   ]
 }
