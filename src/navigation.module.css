@@ -19,6 +19,6 @@
     font-weight: bold;
 }
 
-.navigationButton:hover, .navigationBar:hover {
-    background-color: #171b23;
+.navigationButton:hover {
+    background-color: #060a12;
 }
