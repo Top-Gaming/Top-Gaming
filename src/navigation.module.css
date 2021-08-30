@@ -6,6 +6,7 @@
     position: sticky;
     position: -webkit-sticky;
     top: 40px;
+    z-index: 1;
 }
 
 .navigationButton {
@@ -16,4 +17,8 @@
     box-sizing: border-box;
     line-height: 40px;
     font-weight: bold;
+}
+
+.navigationButton:hover, .navigationBar:hover {
+    background-color: #171b23;
 }
